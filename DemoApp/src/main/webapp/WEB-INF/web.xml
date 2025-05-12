@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>DemoApp</display-name>
+  
+  
+  <!--                            //Replaced by using annotations
+  <servlet>
+		  <servlet-name>FirstUse</servlet-name>
+		  <servlet-class>com.manjeet.AddServlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+         <servlet-name>FirstUse</servlet-name>
+         <url-pattern>/add</url-pattern>
+   </servlet-mapping>
+  
+   <servlet>
+       <servlet-name>PQR</servlet-name>
+       <servlet-class>com.manjeet.SquareServlet</servlet-class>
+   </servlet>    
+   
+  <servlet-mapping>
+  		<servlet-name>PQR</servlet-name>
+  		<url-pattern>/square</url-pattern>
+  </servlet-mapping>     --> 
+  
+  <!--  For servletContext and config-->
+  <servlet>
+  	<servlet-name>MyPhone</servlet-name>
+  	<servlet-class>com.manjeet.ServletContextAndCongif</servlet-class>
+  	
+  	<init-param>
+  		<param-name>Model</param-name>
+  		<param-value>Realme 7 pro</param-value>
+  	</init-param>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>MyPhone</servlet-name>
+  		<url-pattern>/context</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+     <param-name>Model</param-name>
+     <param-value>Realme 3 pro</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>Price</param-name>
+  	<param-value>10000</param-value>
+  </context-param>
+  
+</web-app>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:Login" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:DemoApp" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:FileUploadDemo" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:loginAgain" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:Servlet_JSP_Demo" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:ToDo_list" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:TODO_List_project" serverId="Tomcat v8.5 Server at localhost"/>
+</modules>

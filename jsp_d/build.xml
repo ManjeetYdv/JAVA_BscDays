@@ -1,0 +1,7 @@
+<project name="jsp_d" default="WAR-build" basedir=".">
+	<description>jsp_d - Build file</description>
+
+	<import file="buildProperties.xml"/>
+	<import file="buildTasks.xml"/>
+
+</project>

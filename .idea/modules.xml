@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA course/JAVA course.iml" filepath="$PROJECT_DIR$/JAVA course/JAVA course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode/Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linked_lists/Linked_lists.iml" filepath="$PROJECT_DIR$/Linked_lists/Linked_lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Striever_sheet/Striever_sheet.iml" filepath="$PROJECT_DIR$/Striever_sheet/Striever_sheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/arrays.iml" filepath="$PROJECT_DIR$/arrays/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guess_the_num/guess_the_num.iml" filepath="$PROJECT_DIR$/guess_the_num/guess_the_num.iml" />
+    </modules>
+  </component>
+</project>
